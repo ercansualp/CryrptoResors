@@ -26,8 +26,7 @@ export default {
           title: 'Symbol',
           field: 'name',
           filter: true,
-          search: true,
-
+          search: true, // [{name: "btcusdt", change: "0.24234", time: 248537}]
         },
         {
           title: 'Change (%)',
@@ -41,13 +40,10 @@ export default {
           sortable: true
         }
       ],
-      coins: [
-          "BTCUSDT", "ETHFIUSDT", "APTUSDT", "XAIUSDT", "RDNTUSDT", "ARBUSDT", "ETHUSDT", "BNBUSDT", "SOLUSDT", "USDCUSDT", "XRPUSDT"
-      ]
     }
   },
   mounted() {
-    // SignalR bağlantısını oluştur
+    // SignalR bağlantısını oluştur 
     this.connection = new HubConnectionBuilder()
         .withUrl("https://localhost:7021/notification") // SignalR hub URL'sini buraya ekleyin
         .build();
@@ -55,8 +51,7 @@ export default {
     this.connection.start()
         .then(async () => {
           console.log("SignalR bağlantısı başarıyla başlatıldı.");
-          for(let i = 0; i < this.coins.length; i++)
-            await axios.get(`https://localhost:7021/api/CryrptoResorsBase/${this.coins[i]}`);
+            await axios.get(`https://localhost:7021/api/CryptoResorsBase/FollowCoins`);
 
           // Hub üzerinden gelen mesajları dinle
           this.connection.on("ReceiveMessage", _radarSymbol => {

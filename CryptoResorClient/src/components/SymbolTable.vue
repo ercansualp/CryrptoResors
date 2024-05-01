@@ -31,7 +31,7 @@ export default {
       ],
       symbolDatas: []
     }
-  },
+        },
   mounted(){
     axios.get("https://api.binance.com/api/v3/ticker/price").then((response) => {
       this.symbolDatas = response.data;

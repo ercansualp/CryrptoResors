@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryrptoResorAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49df28421a09d4b21bb2511bf8efff46e053df97")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryrptoResorAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryrptoResorAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

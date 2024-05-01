@@ -26,7 +26,7 @@ namespace CryrptoResorAPI.Services
             _socket.OnMessage += async (sender, e) =>
             {
                 JObject jsonData = JObject.Parse(e.Data);
-
+                
                 int openMinute = DateTimeOffset.FromUnixTimeMilliseconds((long)Convert.ToDouble(jsonData["k"]["t"])).UtcDateTime.Minute;
                 if (openMinute != currentMinute)
                 {
@@ -47,7 +47,7 @@ namespace CryrptoResorAPI.Services
             };
             _socket.Connect();
         }
-
+        
         /// <summary>
         /// Yüzde Hesaplama Fonksiyonu
         /// </summary>
