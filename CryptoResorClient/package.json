@@ -1,0 +1,30 @@
+{
+  "name": "cryptoresorclient",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bhplugin/vue3-datatable": "^1.1.4",
+    "@microsoft/signalr": "^8.0.0",
+    "axios": "^1.6.8",
+    "primevue": "^3.52.0",
+    "vue": "^3.4.21",
+    "vue-good-table": "^2.21.11",
+    "vue-tradingview-widgets": "^1.2.4",
+    "vueye-table": "^2.0.0-alpha.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
