@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\controllers\\cryrptoresorsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\controllers\\cryrptoresorsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:controllers\\cryrptoresorsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\services\\coinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\services\\coinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:services\\coinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryrptoresors\\cryptoresorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|c:\\users\\serdar\\desktop\\cryptoresourcev2\\cryptoresorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{088214E0-805C-449C-B9A6-0B2F84851306}|CryrptoResorAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -42,15 +42,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NotificationHub.cs",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Hubs\\NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "Hubs\\NotificationHub.cs",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Hubs\\NotificationHub.cs",
               "RelativeToolTip": "Hubs\\NotificationHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAB8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\ServiceRegistration.cs",
               "RelativeToolTip": "ServiceRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CoinService.cs",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Services\\CoinService.cs",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Services\\CoinService.cs",
               "RelativeDocumentMoniker": "Services\\CoinService.cs",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Services\\CoinService.cs",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Services\\CoinService.cs",
               "RelativeToolTip": "Services\\CoinService.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAAABsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CryrptoResorsBaseController.cs",
-              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Controllers\\CryrptoResorsBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Controllers\\CryrptoResorsBaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\CryrptoResorsBaseController.cs",
-              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\CryrptoResors\\CryptoResorAPI\\Controllers\\CryrptoResorsBaseController.cs",
+              "ToolTip": "C:\\Users\\SERDAR\\Desktop\\cryptoResourceV2\\CryptoResorAPI\\Controllers\\CryrptoResorsBaseController.cs",
               "RelativeToolTip": "Controllers\\CryrptoResorsBaseController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAswBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
