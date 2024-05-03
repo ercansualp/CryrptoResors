@@ -11,7 +11,7 @@
         <SymbolRadar @changeCurrentSymbol="changeCurrentSymbol"></SymbolRadar> <!--radar-->
       </div>
     </div>
-    <Deneme></Deneme>
+    
   </div>
 </template>
 
@@ -20,7 +20,7 @@ import { ref, provide } from 'vue';
 import SymbolRadar from './components/SymbolRadar.vue';
 import SymbolTable from './components/SymbolTable.vue';
 import TradingViewWidget from "./components/TradingViewWidget.vue";
-import Deneme from "./components/Deneme.vue";
+
 
 export default {
   name: 'App',
@@ -28,7 +28,7 @@ export default {
     SymbolRadar,
     SymbolTable,
     TradingViewWidget,
-    Deneme
+   
   },
   setup() {
     const currentSymbol = ref("NASDAQ:AAPL");
