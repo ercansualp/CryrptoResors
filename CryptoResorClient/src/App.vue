@@ -1,21 +1,22 @@
 <template>
-<div class="min-h-screen flex items-center justify-center">
-  <div class="flex w-full px-10 gap-x-4">
-    <div class="flex flex-col border border-[#ddd] rounded-md p-2 w-[350px]">
-      <symbol-table v-on:changeCurrentSymbol="changeCurrentSymbol($event)"></symbol-table> <!--soldaki tablo-->
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="flex w-full px-10 gap-x-4">
+      <div class="flex flex-col border border-[#ddd] rounded-md p-2 w-[350px]">
+        <SymbolTable @changeCurrentSymbol="changeCurrentSymbol"></SymbolTable> <!--soldaki tablo-->
+      </div>
+      <div class="grow min-h-[400px]">
+        <TradingViewWidget :currentSymbol="currentSymbol"></TradingViewWidget> <!--widget-->
+      </div>
+      <div class="border border-[#ddd] rounded-md">
+        <SymbolRadar @changeCurrentSymbol="changeCurrentSymbol"></SymbolRadar> <!--radar-->
+      </div>
     </div>
-    <div class="grow min-h-[400px]">
-      <trading-view-widget v-bind:currentSymbol="currentSymbol"></trading-view-widget> <!--widget-->
-    </div>
-    <div class="border border-[#ddd] rounded-md">
-        <symbol-radar v-on:changeCurrentSymbol="changeCurrentSymbol($event)"></symbol-radar> <!--radar-->
-    </div>
+    <Deneme></Deneme>
   </div>
-  <deneme></deneme>
-</div>
 </template>
 
 <script lang="ts">
+import { ref, provide } from 'vue';
 import SymbolRadar from './components/SymbolRadar.vue';
 import SymbolTable from './components/SymbolTable.vue';
 import TradingViewWidget from "./components/TradingViewWidget.vue";
@@ -26,18 +27,23 @@ export default {
   components: {
     SymbolRadar,
     SymbolTable,
-      TradingViewWidget,
-      Deneme
+    TradingViewWidget,
+    Deneme
   },
-  data(){
+  setup() {
+    const currentSymbol = ref("NASDAQ:AAPL");
+
+    const changeCurrentSymbol = (symbol) => {
+      console.log("veri: ", symbol);
+      currentSymbol.value = symbol.symbol;
+    };
+
+    provide('changeCurrentSymbol', changeCurrentSymbol);
+
     return {
-      currentSymbol: "NASDAQ:AAPL",
-    }
-  },
-  methods: {
-    changeCurrentSymbol(symbol){
-      this.currentSymbol = symbol.symbol;
-    }
+      currentSymbol,
+      changeCurrentSymbol
+    };
   }
 };
 </script>
